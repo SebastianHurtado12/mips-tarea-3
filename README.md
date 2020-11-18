@@ -85,3 +85,12 @@ Los _opcodes_ y códigos de función de las instrucciones pueden encontrarse por
 ### Comentarios
 
 1. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
+2. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".  
+3. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
+4. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
+5. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
+6. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
+7. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
+8. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
+9. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
+10. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".

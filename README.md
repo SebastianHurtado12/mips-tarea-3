@@ -85,16 +85,16 @@ Los _opcodes_ y códigos de función de las instrucciones pueden encontrarse por
 ### Comentarios
 
 1. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
-2. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".  
-3. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
-4. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
-5. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
-6. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
-7. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
-8. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
-9. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
-10. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
-11. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
-12. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
-13. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
-14. `ori $v0, $zero, 4` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
+2. `lui $4, 4097 [hello]`  reemplaza a la pseudoinstrucción la $a0, hello.  
+3. `syscall` en las instrucciones de tipo R y como es este tipo de instrucciones su opcode sera 0.
+4. `lui $1, 4097 [numbers]` en las instrucciones de tipo I su funcion es guarda en el registro $at la posición de hello en la memoria.
+5. `ori $8, $1, 16 [numbers]` es una instruccion de tipo I, esta instruccion hace que nos ubiquemos en la direccion de numbers y lo guarda $t0.
+6. `lw $13, 0($8)` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
+7. `lw $14, 4($8)` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
+8. `add $18, $13, $14` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
+9. `addi $18, $18, 5` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
+10. `addu $4, $0, $18` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
+11. `ori $2, $0, 1` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
+12. `syscall` en las instrucciones de tipo R y como es este tipo de instrucciones su opcode sera 0.
+13. `ori $2, $0, 10` reemplaza a `li $v0, 4` que es una pseudoinstrucción. En las instrucciones de tipo I el registro de destino es `rt` en vez de `rd`. Los campos que no se usan dicen "NA" por "no aplica".
+14. `syscall` en las instrucciones de tipo R y como es este tipo de instrucciones su opcode sera 0.

@@ -80,7 +80,7 @@ Los _opcodes_ y códigos de función de las instrucciones pueden encontrarse por
 |        |    |      |     |     |     |       |       |                |   |
 |        |    |      |     |     |     |       |       |                |   |
 |        |    |      |     |     |     |       |       |                |   |
-|        |    |      |     |     |     |       |       |                |   |
+|0000000c|R   |000000|00000|00000|00000|0000   |01100  |      NA	      |\#3|    
 
 ### Comentarios
 
